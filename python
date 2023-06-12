@@ -6,7 +6,7 @@ def eh_primo(num):
             return False
     return True
 
-# Testando a função
+
 numero = int(input("Digite um número: "))
 if eh_primo(numero):
     print(f"{numero} é um número primo!")
